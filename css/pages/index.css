@@ -1,5 +1,5 @@
-@import url("./common.css");
-@import url("./header/header.css");
-@import url("./footer/footer.css");
-@import url("./news/news.css");
-
+@import url('./common.css');
+@import url('./header/header.css');
+@import url('./footer/footer.css');
+@import url('./news/news.css');
+@import url('./get-started/get-started.css');
