@@ -1,0 +1,24 @@
+.subscription{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--thamar-black);
+}
+
+.subscription__block{
+    border-radius: 32px;
+    background-color: var(--black);
+    padding: 60px;
+
+    position: relative;
+}
+
+.subscription__block:before{
+    content: "";
+
+    background-image: url("/images/subscription/IMAGE.png");
+    width: 147px;
+    height: 91px;
+    position: absolute;
+    left: -38px;
+    bottom: -35px;
+}
