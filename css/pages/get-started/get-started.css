@@ -6,9 +6,26 @@
   display: flex;
 }
 
+.get-started__image{
+  position: relative;
+}
+
+.get-started__image::before{
+  content: "";
+
+  position: absolute;
+  left: -30px;
+  top: -30px;
+  z-index: 1;
+  width: 68px;
+  height: 74px;
+  background-image: url("../../../images/get-started/mainImageDecoration.svg");
+}
+
 .get-started__image img{
   width: 684px;
   height: auto;
+  
 }
 
 .get-started__content{
