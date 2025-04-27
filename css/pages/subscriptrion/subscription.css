@@ -1,77 +1,68 @@
-.subscription{
-    padding-top: 100px;
-    padding-bottom: 100px;
+.subscription {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.subscription__block{
-    display: flex;
-    justify-content: space-between;
-    gap: 227px;
+.subscription__block {
+  display: flex;
+  justify-content: space-between;
+  gap: 227px;
 
-    border-radius: 32px;
-    background-color: var(--black);
-    padding: 60px;
+  border-radius: 32px;
+  background-color: var(--black);
+  padding: 60px;
 
-    position: relative;
+  position: relative;
 }
 
-.subscription__block:before{
-    content: "";
+.subscription__block:before {
+  content: '';
 
-    background-image: url("/images/subscription/IMAGE.png");
-    width: 147px;
-    height: 91px;
-    position: absolute;
-    left: -38px;
-    bottom: -35px;
+  background-image: url('/images/subscription/IMAGE.png');
+  width: 147px;
+  height: 91px;
+  position: absolute;
+  left: -38px;
+  bottom: -35px;
 }
 
-.subscription__content{
-    flex: 0 1 431px;
+.subscription__content {
+  flex: 0 1 431px;
 
-    font-family: "DM-sans", sans-serif;
-    font-weight: 400;
+  font-family: 'DM-sans', sans-serif;
+  font-weight: 400;
 }
 
-.subscription__content p{
-    font-size: 18px;
-    color: var(--mediterranean-sea);
+.subscription__content p {
+  font-size: 18px;
+  color: var(--mediterranean-sea);
 }
 
-.subscription__content h2{
-    font-size: 72px;
-    color: var(--white);
-    line-height: 1;
+.subscription__content h2 {
+  font-size: 72px;
+  color: var(--white);
+  line-height: 1;
 }
 
-.subscription-form{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.subscription-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 
-    flex: 0 1 522px;
+  flex: 0 1 522px;
 }
 
-.subscription-form input{
-    padding: 19px 26px;
-    background-color: var(--thamar-black);
-    border-radius: 6px;
+.subscription-form input {
+  padding: 19px 26px;
+  background-color: var(--thamar-black);
+  border-radius: 6px;
 
-    font-family: "DM-sans", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    color: var(--white);
+  font-family: 'DM-sans', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--white);
 }
 
-.subscription-form button{
-    align-self: flex-start;
-    padding: 9px 19px;
-
-    background-color: var(--mediterranean-sea);
-    border-radius: 6px;
-
-    font-family: "DM-sans", sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    color: var(--white);
+.subscription-form button {
+  align-self: flex-start;
 }
